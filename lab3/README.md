@@ -4,6 +4,10 @@ I colaborated and wrote the code together with Angelica Ferlin, Mathias Schmekel
 ## Other sources
 https://github.com/squillero/computational-intelligence/blob/master/2022-23/lab3_nim.ipynb
 
+## Note
+Lab3 was the first submission, the rest of the documents are on the second submission
+
+
 ### 3.1
 https://en.wikipedia.org/wiki/Nim
 
@@ -50,11 +54,10 @@ The rules whose parameters are evolved:
 
 ### 3.3
 The task 3.3 of the Mini-max was heavily inspired and some code was taken from this tutorial: https://realpython.com/python-minimax-nim/
+For some reason I don't understand, the minimax_pruning is not working :/
 
 ### 3.4
-https://andrewrowell.blog/2020/05/19/q-learning-nim-with-python/
-https://github.com/andrewrowell/NimQLearning/blob/master/nim.py
+The reinforcement learning part was inspired by this github:
 https://github.com/abelmariam/nimPy/blob/master/Nim.py
-https://www.csc.kth.se/utbildning/kth/kurser/DD143X/dkand11/Group6Lars/erikjarleberg.pdf
 
 
