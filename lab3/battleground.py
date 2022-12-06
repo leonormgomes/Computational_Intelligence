@@ -21,10 +21,6 @@ def play_nim(agent1: Callable, opponent: Callable, nim_size = 5):
     winner = 1 - player
     logging.info(f"status: Player {winner} won!")
 
-def play_nim_with_q_learner(q_learner: QLearner, opponent: Callable):
-    result = play_q_learning(NIM_SIZE, q_learner, opponent)
-    print(result)
-
 
 #Expert Agent plays
 play_nim(nim_sum, dumb)
